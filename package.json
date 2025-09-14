@@ -1,0 +1,42 @@
+{
+  "name": "athleticas",
+  "version": "1.0.0",
+  "description": "Simple application for amateur competitions",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main/server.js",
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/main/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaabriel000/athleticas.git"
+  },
+  "keywords": [
+    "competitions",
+    "championship",
+    "cup"
+  ],
+  "author": "Gabriel Bonatto Roani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaabriel000/athleticas/issues"
+  },
+  "homepage": "https://github.com/gaabriel000/athleticas#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/i18next": "^12.1.0",
+    "@types/i18next-fs-backend": "^1.1.5",
+    "@types/node": "^24.3.3",
+    "@types/uuid": "^10.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "i18next": "^25.5.2",
+    "i18next-fs-backend": "^2.6.0",
+    "i18next-http-middleware": "^3.8.0"
+  }
+}

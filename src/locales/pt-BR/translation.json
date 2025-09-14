@@ -1,0 +1,15 @@
+{
+  "errors": {
+    "validation_failed": "Falha na validação dos dados.",
+    "competition_not_found": "Competição com o ID {{id}} não encontrada.",
+    "competition_already_started": "A competição não pode ser alterada pois já foi iniciada.",
+    "competition_unable_finish": "A competição não pode ser finalizada pois já foi finalizada ou ainda não iniciada.",
+    "competition_update_finish": "Competições finalizadas não podem ser alteradas.",
+    "internal_server_error": "Ocorreu um erro interno no servidor."
+  },
+  "competition": {
+    "created_success": "Competição criada com sucesso.",
+    "updated_success": "Competição atualizada com sucesso."
+  },
+  "welcome_message": "Bem-vindo, {{name}}!"
+}
